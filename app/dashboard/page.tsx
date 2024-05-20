@@ -263,14 +263,14 @@ export default function Dashboard() {
               <Button
                 variant="outline"
                 size="icon"
-                className="overflow-hidden rounded-full"
+                className="overflow-hidden rounded-full p-0"
               >
                 <Image
                   src={Avatar}
                   width={36}
                   height={36}
                   alt="Avatar"
-                  className="overflow-hidden rounded-full"
+                  className="overflow-hidden rounded-full w-full h-full bg-white"
                 />
               </Button>
             </DropdownMenuTrigger>
